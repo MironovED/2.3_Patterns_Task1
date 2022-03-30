@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/4byh4a9lvbdugv9k?svg=true)](https://ci.appveyor.com/project/MironovED/2-3-patterns-task1)
