@@ -13,4 +13,5 @@ public class RegistrationByCardInfo {
     private final String phone;
     private final String city;
 
+
 }

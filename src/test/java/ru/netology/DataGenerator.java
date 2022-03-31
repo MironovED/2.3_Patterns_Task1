@@ -1,6 +1,8 @@
 package ru.netology;
 
 import com.github.javafaker.Faker;
+
+import java.security.SecureRandom;
 import java.util.Locale;
 
 
@@ -19,10 +21,7 @@ public class DataGenerator {
                     faker.phoneNumber().phoneNumber(),
                     faker.address().cityName()
             );
-
-
         }
-
 
     }
 
