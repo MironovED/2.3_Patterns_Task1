@@ -178,7 +178,7 @@ public class CardDeliveryTest {
         $("[data-test-id='phone'] .input__control").val("");
         $("[data-test-id='agreement']").click();
         $(".button").click();
-        $("[data-test-id='phone'].input_invalid").shouldHave(Condition.text("Поле обязательно для заполнения"));
+        $("[data-test-id='phone'].input_invalid .input__sub").shouldHave(Condition.text("Поле обязательно для заполнения"));
 
     }
 
